@@ -4,17 +4,29 @@ import datetime
 from time import sleep
 import os
 
-#event_name= input()
-#f = open('/home/lalitha/Desktop/events_dataset/' + str(event_name) + '_nytimes.txt', 'w')
-#url = 'https://www.thehindu.com/search/?q=meghan markle wedding&order=DESC&sort=publishdate&page=1'
-url = 'https://english.mathrubhumi.com/search?q=sabarimala'
+url = 'https://timesofindia.indiatimes.com/city/thiruvananthapuram/half-of-kerala-reels-under-floods-as-29-die-54000-are-homeless/articleshow/65362118.cms'
 r = requests.get(url)
 data = r.text
 soup = BeautifulSoup(data, "lxml")
-# for link in soup.find_all('a'):
-#     if 'html' in link.get('href'):
-#         f.write(link.get('href') + '\n')
-# f.close()
-a = soup.findAll('div', attrs={'class':'gsc-resultsRoot gsc-tabData gsc-tabdActive'})
-print(a)
+headline = soup.find('div', attrs = {'class': '_38kVl'})
+# print(headline)
+date = headline.find('div', attrs = {'class': '_3Mkg- byline'})
+for text in date:
+    print(text)
+headline2 = headline.find('h1')
+for text in headline2:
+    print(text)
 
+a = soup.find('div', attrs = {'class':'_3WlLe clearfix '})
+
+# print(a)
+s = ""
+for text in a:
+    if str(text) == "<br/>":
+        continue
+    elif str(text).find("<") != -1:
+        continue
+    else:
+      s += str(text)
+
+print(s) 
