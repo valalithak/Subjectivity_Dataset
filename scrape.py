@@ -4,7 +4,7 @@ import datetime
 from time import sleep
 import os
 
-url = 'https://timesofindia.indiatimes.com/city/thiruvananthapuram/half-of-kerala-reels-under-floods-as-29-die-54000-are-homeless/articleshow/65362118.cms'
+url = 'https://timesofindia.indiatimes.com/india/kerala-flood-toll-rises-to-29-red-alert-in-8-districts/articleshow/65360414.cms'
 r = requests.get(url)
 data = r.text
 soup = BeautifulSoup(data, "lxml")
