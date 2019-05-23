@@ -4,7 +4,7 @@ import datetime
 from time import sleep
 import os
 # f = open('deepika_ranveer_ht.txt', 'w')
-url = 'https://www.thehindu.com/search/?q=karnataka%20elections%202018&order=DESC&sort=score&page=4'
+url = 'https://www.thehindu.com/search/?q=hyderabad%20metro%20inauguration&order=DESC&sort=score&page=2'
 r = requests.get(url)
 data = r.text
 soup = BeautifulSoup(data, "lxml")
