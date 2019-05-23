@@ -4,12 +4,12 @@ import datetime
 from time import sleep
 import os
 # f = open('deepika_ranveer_ht.txt', 'w')
-url = 'https://timesofindia.indiatimes.com/topic/Bhim-Pay-App-Launch/news'
+url = 'https://www.thehindu.com/search/?q=section%20377%20verdict&order=DESC&sort=score&page=2'
 r = requests.get(url)
 data = r.text
 soup = BeautifulSoup(data, "lxml")
 
-b = soup.findAll('div', attrs = {'class':'content'})
+b = soup.findAll('a', attrs = {'class':'story-card75x1-text'})
 for link in b:
-    c = link.find('a').get('href')
-    print("https://timesofindia.indiatimes.com" + str(c))
+    c = link.get('href')
+    print(str(c))
