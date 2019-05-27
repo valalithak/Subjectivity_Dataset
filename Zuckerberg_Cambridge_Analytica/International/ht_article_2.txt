@@ -1,0 +1,37 @@
+Facebook's Zuckerberg speaks out over Cambridge Analytica 'breach'
+ Facebook founder Mark Zuckerberg has admitted that the social network "made mistakes" that led to millions of Facebook users having their data exploited by a political consultancy.
+Cambridge Analytica is accused of improperly using the data on behalf of political clients.
+In a statement, Mr Zuckerberg said a "breach of trust" had occurred.
+In a later interview with CNN he said he was "really sorry", and pledged to take action against "rogue apps".
+He added that he was "happy" to testify before Congress "if it's the right thing to do".
+In his statement posted on Facebook, he promised to make it far harder for apps to "harvest" user information.
+"We have a responsibility to protect your data, and if we can't then we don't deserve to serve you," Mr Zuckerberg said.
+To address current and past problems, Mr Zuckerberg said his company would:
+In future, he said Facebook would:
+Mr Zuckerberg added: "While this specific issue involving Cambridge Analytica should no longer happen with new apps today, that doesn't change what happened in the past.
+"We will learn from this experience to secure our platform further and make our community safer for everyone going forward."
+Analysis by Dave Lee, BBC North America technology reporter, at Facebook's headquarters 
+I read one thing loud and clear from Mr Zuckerberg's initial statement: Facebook is not prepared to take the blame for what has happened. 
+Contrition has never been Mr Zuckerberg's strong point, and the statement, days in the making, was no different.  
+No apology to users, investors or staff over how this incident was allowed to happen by the data policies in place at the time. 
+No explanation as to why, after learning its data was being abused like this in 2014, it opted to give the companies a telling off instead of banning them outright.  
+No reasoning as to why Facebook failed to inform users their data may have been affected. Technically, it still hasn't. 
+Mr Zuckerberg's words were not an explanation, but a legal and political defence. This company knows it is heading into battle on multiple fronts. 
+Follow Dave Lee on Twitter @DaveLeeBBC
+In 2014, Facebook invited users to find out their personality type via a quiz developed by Cambridge University researcher Dr Aleksandr Kogan called This is Your Digital Life. 
+About 270,000 users' data was collected, but the app also collected some public data from users' friends.
+Facebook has since changed the amount of data developers can gather in this way, but a whistleblower, Christopher Wylie, says the data of about 50 million people was harvested for Cambridge Analytica before the rules on user consent were tightened up. 
+Mr Wylie claims the data was sold to Cambridge Analytica - which has no connection with Cambridge University - which then used it to psychologically profile people and deliver pro-Trump material to them.
+The firm's chief executive, Alexander Nix - who was suspended on Tuesday - was secretly recorded in a Channel 4 investigation saying the London-based company ran Donald Trump's digital campaign during the 2016 US election. 
+"We did all the research, all the data, all the analytics, all the targeting, we ran all the digital campaign, the television campaign and our data informed all the strategy," he added. 
+Dr Kogan has said he was told by Cambridge Analytica everything they had done was legal, and that he was being made a "scapegoat" by the firm and Facebook.
+Cambridge Analytica denies any wrongdoing.
+Facebook says users' data was obtained legitimately but Cambridge Analytica failed to delete it when told to do so.
+For its part, Cambridge Analytica says it did delete the data when told to by Facebook.
+It suspended Mr Nix following his comments which appeared to suggest tactics his company could use to discredit politicians online.
+However, the firm said the report of comments secretly recorded by Channel 4 News had "grossly misrepresented" Mr Nix's comments.
+US senators have called on Mr Zuckerberg to testify before Congress about how his company will protect users, while consumer watchdog the US Federal Trade Commission has reportedly opened an investigation into Facebook.
+The head of the European Parliament also said it would investigate to see if the data was misused.
+The UK's Information Commissioner Elizabeth Denham is attempting to obtain a warrant to search the offices of Cambridge Analytica.
+Meanwhile, a UK parliamentary committee has called for Mr Zuckerberg to give evidence about its use of personal data.
+There have also been calls for an investigation into the work Cambridge Analytica carried out during the 2013 election in Kenya.
