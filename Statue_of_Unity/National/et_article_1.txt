@@ -1,0 +1,44 @@
+PM Narendra Modi inaugurates 'Statue of Unity' in honour of Sardar Patel
+The Statue of Unity, a 182-metre giant structure built in honour of Sardar Vallabhbhai Patel, has been inaugrated by Prime Minister Narendra Modi.
+
+The imposing monument, touted as the world's tallest statue, is twice the height of Statue of Liberty and is built on an islet, Sadhu Bet, near the Sardar Sarovar Dam in Narmada district.
+
+A thick security blanket has been thrown around Narmada district as Prime Minister Narendra Modi will arrive to unveil the Statue of Unity at Kevadiya Colony.
+
+A tight security ring consisting of one additional DG, one IG, five superintendents of police (SP), 30 DySPs, 67 police inspectors, 317 police sub-inspectors and 28 mounted police force has been thrown around the venue. Six bomb disposal squads too will be deployed.
+
+
+
+Nearly 20 drones will hover around the venue and adjacent areas for aerial surveillance.
+
+After Modi unveils the statue, three IAF planes would fly past and create the tricolour in the sky by emitting saffron, white and green colours, said an official release Tuesday.
+
+Modi would also inaugurate the 'Wall of Unity' (a monument defining India's unity) near the statue. At that time, three Jaguar fighter jets would fly past the structure at a low altitude, said the release.
+
+
+
+
+After inaugurating the Wall of Unity, Modi would offer floral tributes to Patel, whose birth anniversary falls on October 31. At the same time, two MI-17 helicopters would shower flowers on the statue, it said.
+
+On the occasion, cultural and musical programmes will be performed by the bands of Gujarat Police, armed and paramilitary forces.e occasion, cultural and musical programmes will be performed by the bands of Gujarat Police, armed and paramilitary forces.
+
+
+
+There will be dance and musical performances by artistes drawn from 29 states and two Union Territories.
+nd musical performances by artistes drawn from 29 states and two Union Territories.
+
+Some of other major attractions include inauguration of a 17-km-long Valley of Flowers, a tent city for tourists near the statue and a museum dedicated to the life and times of Patel.
+
+A viewing gallery at a height of 135 metres has been created inside the statue to enable tourists to have a view of the dam and nearby mountain ranges.
+
+
+var totalpage = '1',
+			curpage = 1,
+			slideval = '66443907';
+		var slider66443907 = {/*Object for multiplider*/
+			totalpage: '1',
+			curpage: 1,
+			slideval: '66443907',
+			totalslide : '1'
+		}India inaugurates world's tallest statue in honour of Sardar Vallabhbhai Patel of 1NextPrevPlay SlideshowSuperior India31 Oct, 2018 The inaugural ceremony coincided with the 143rd birth anniversary of Patel, who was known as the 'Iron Man of India'. Lavishing praise on Patel for uniting over 500 princely states as India attained independence, PM Modi also made a pitch for the dream of 'One India, Superior India'.Next
+

@@ -69,7 +69,7 @@ def hindu():
                     c = text.findAll('p')
                     content += str(c)
 
-# print(content)
+
                 clean = re.compile('<.*?>')
                 content = re.sub(clean, '', content)
                 clean = re.compile('</p>')
@@ -83,7 +83,49 @@ def hindu():
                 f.close()
                 sleep(2)
         
+def et():
+    nyt_paths = commands.getoutput("find -name *et.txt").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.findAll('h1')[0].text
+                # print headline
+                paras = soup.findAll('div', attrs = {'class': 'Normal'})
+                try:
+                    content = paras[0].text
+                    clean = re.compile('<.*?>')
+                    content = re.sub(clean, '', content)
+                    # print content
+                    article = content
+                    new_path = ('/').join(path.split('/')[:-1]) + '/et_article_' + str(idx + 1) + '.txt'
+                    f = open(new_path, 'w')
+                    f.write(headline.encode('utf-8') + '\n')
+                    f.write(article.encode('utf-8'))
+                    f.close()
+                    sleep(2)
+                except:
+                    headline = " "
+                    article = " "
+                    new_path = ('/').join(path.split('/')[:-1]) + '/et_article_' + str(idx + 1) + '.txt'
+                    f = open(new_path, 'w')
+                    f.write(headline.encode('utf-8') + '\n')
+                    f.write(article.encode('utf-8'))
+                    f.close()
+                    sleep(2)
+                   
                 
+                
+                
+               
 #indiat()
 #nyt()
-hindu()
+et()
+# hindu()
+
