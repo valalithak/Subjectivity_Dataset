@@ -173,7 +173,7 @@ def bbc():
                 
                 # print content
                 article = content
-                new_path = ('/').join(path.split('/')[:-1]) + '/ht_article_' + str(idx + 1) + '.txt'
+                new_path = ('/').join(path.split('/')[:-1]) + '/bbc_article_' + str(idx + 1) + '.txt'
                 f = open(new_path, 'w')
                 f.write(headline.encode('utf-8') + '\n')
                 f.write(article.encode('utf-8'))
@@ -186,6 +186,6 @@ def bbc():
 # et()
 # hindu()
 # indianexpress()
-# ht()
+ht()
 bbc()
 
