@@ -227,19 +227,20 @@ def mathrubhumi():
                 headline = soup.findAll('h1')[0].text
                 print headline
                 paras = soup.findAll('div', attrs = {'class': 'col-md-12 col-sm-12 col-xs-12'})
-                print paras
-                # content = " "
-                # for i in range(0, len(paras)):
-                #     article = paras[i].find('p').text
-                #     print article 
-                # for i in paras:
-                #     article = i.find('p').text
-                #     print "article is :"
-                #     print article
-                    # print article
-                    # content += article + "\n"
+                # print paras
+
+                content = " "
+                for i in range(0, len(paras)):
+                    article = paras[i].find('p').text
+                    print article 
+                for i in paras:
+                    article = i.find('p').text
+                    print "article is :"
+                    print article
+                    print article
+                    content += article + "\n"
                 
-                # print content
+                print content
                 # article = paras[0].text
                 # print article
                 # new_path = ('/').join(path.split('/')[:-1]) + '/mathrubhumi_article_' + str(idx + 1) + '.txt'
@@ -287,5 +288,5 @@ def mylaporetimes():
 # bbc()
 # toi()
 # mathrubhumi()
-mylaporetimes()
+# mylaporetimes()
 
