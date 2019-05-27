@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 import requests
 import datetime
@@ -83,8 +84,8 @@ def hindu():
                 f.close()
                 sleep(2)
         
-def et():
-    nyt_paths = commands.getoutput("find -name *ET.txt").split('\n')
+def indianexpress():
+    nyt_paths = commands.getoutput("find -name *indianexpress.txt").split('\n')
     for path in nyt_paths:
         f = open(path, 'r')
         urls = f.readlines()
@@ -96,29 +97,28 @@ def et():
                 data = r.text
                 soup = BeautifulSoup(data, "lxml")
                 headline = soup.findAll('h1')[0].text
-                # print headline
-                paras = soup.findAll('div', attrs = {'class': 'Normal'})
-                try:
-                    content = paras[0].text
-                    clean = re.compile('<.*?>')
-                    content = re.sub(clean, '', content)
-                    # print content
-                    article = content
-                    new_path = ('/').join(path.split('/')[:-1]) + '/et_article_' + str(idx + 1) + '.txt'
-                    f = open(new_path, 'w')
-                    f.write(headline.encode('utf-8') + '\n')
-                    f.write(article.encode('utf-8'))
-                    f.close()
-                    sleep(2)
-                except:
-                    headline = " "
-                    article = " "
-                    new_path = ('/').join(path.split('/')[:-1]) + '/et_article_' + str(idx + 1) + '.txt'
-                    f = open(new_path, 'w')
-                    f.write(headline.encode('utf-8') + '\n')
-                    f.write(article.encode('utf-8'))
-                    f.close()
-                    sleep(2)
+                print headline
+                content = " "
+                b = soup.findAll('div', attrs = {'itemprop': 'articleBody'})
+                for text in b:
+                    c = text.findAll('p')
+                    content += str(c)
+                
+               
+                clean = re.compile('<.*?>')
+                content = re.sub(clean, '', content)
+                clean = re.compile('</p>')
+                content = re.sub(clean, '', content)
+                
+        
+                article = content
+                new_path = ('/').join(path.split('/')[:-1]) + '/indianexpress_article_' + str(idx + 1) + '.txt'
+                f = open(new_path, 'w')
+                f.write(headline.encode('utf-8') + '\n')
+                f.write(article.encode('utf-8'))
+                f.close()
+                sleep(2)
+                
                    
                 
                 
@@ -126,6 +126,7 @@ def et():
                
 #indiat()
 #nyt()
-et()
+# et()
 # hindu()
+indianexpress()
 
