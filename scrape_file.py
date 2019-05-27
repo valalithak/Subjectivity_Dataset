@@ -180,12 +180,45 @@ def bbc():
                 f.close()
                 sleep(2)            
                 
-               
-#indiat()
+def toi():
+    nyt_paths = commands.getoutput("find -name *toi.txt").split('\n')
+    x = open('toi_not_working.txt', 'r')
+    y = open('toi_not_working_2.txt', 'w')
+    # for path in nyt_paths:
+        # f = open(path, 'r')
+    urls = x.readlines()
+        # f.close()
+    for idx, url in enumerate(urls):
+        if url != '\n':
+            print url.strip()
+            r = requests.get(url.strip())
+            data = r.text
+            soup = BeautifulSoup(data, "lxml")
+            headline = soup.findAll('h1')[0].text
+            print headline
+            paras = soup.findAll('div', attrs = {'class': '_3WlLe clearfix '})
+            
+            try:
+                article = paras[0].text
+                print article
+                # new_path = ('/').join(path.split('/')[:-1]) + '/toi_article_' + str(idx + 1) + '.txt'
+                f = open('toi_content' + str(idx + 1) + '.txt' , 'w')
+                f.write(headline.encode('utf-8') + '\n')
+                f.write(article.encode('utf-8'))
+                f.close()
+                sleep(2)
+            except:
+                y.write(str(url) + "\n")
+                pass
+    x.close()
+                
+                          
+# indiat()
 #nyt()
 # et()
 # hindu()
 # indianexpress()
-ht()
-bbc()
+# ht()
+# bbc()
+toi()
 

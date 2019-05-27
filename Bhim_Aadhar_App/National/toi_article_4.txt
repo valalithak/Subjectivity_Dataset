@@ -1,0 +1,56 @@
+Why the removal of withdrawal limits is likely to end India's cashless honeymoon
+Never underestimate the value of cold cash, and over a billion Indians would have sworn by that adage since early November when some 86% of currency was yanked out of circulation overnight. The comfort of much of that cold cash will be back come March 13, when all limits will be taken off, allowing people to withdraw as much money as they want from banks.
+ 
+ Just a little over a fortnight after that will begin the new fiscal year — for which the government set a lofty target of 2,500 crore transactions to be clocked on digital payment platforms like UPI, USSD and Aadhaar Pay, along with debit cards. This means transactions will have to scale almost three- to five-fold from the digital payment peaks hit in last three months — when India went cashless in more ways than one — to achieve the goal.
+
+ The only difference, of course, in the new fiscal year, is that cash will back. That return, along with limited penetration of the internet (around 30% pan-India), plenty of buffering where mobile net is available and the lack of knowhow among masses on using digital platforms to pay, make the 2,500-crore target announced by finance minister Arun Jaitley in his Budget speech a herculean one.
+
+Last week, on completion of 100 days of demonetisation, the country’s largest bank State Bank of India (SBI) said that with currency supply easing some customers are returning to cash even as digital transactions begin to drop off from peak levels in December 2016.
+
+ According to SBI chairman Arundhati Bhattacharya, adoption of digital channels has slowed down as cash situation is normalising. “There has been a fall in digital transactions in recent weeks but it is higher than what it was pre-demonetisation,” she told the The Times of India on 16 February.
+
+ Two days later, the country’s second largest private lender, HDFC Bank, questioned the sustainability of the mobile wallet business, which was at the vanguard of the shift to digital payments the days following demonetisation. “I think wallets have no future. There is not enough margin in the payment business for the wallets to have a future,” declared Aditya Puri, CEO, HDFC Bank, on the side lines of the Nasscom India Leadership Forum last week.
+
+ The m-wallet brigade, of course, thinks differently. Vijay Shekhar Sharma, founder of Paytm, which became virtually generic with cashless payments after the note ban, believes digital is disruptive and habit-changing.
+
+ “Startup culture is all about disruption and in initial years companies spend to grow and have no profits to show. We have seen it with WhatsApp, Amazon, Google and so many others.
+
+ In fact, WhatsApp was sold for $19 billion without any money to show. Digital payment is a disruptive method and will grow.” Pointing to the attractiveness of digital payments Sharma says 1 million cinema tickets are sold every week on Paytm; along with two million travel tickets a month.
+
+ Madhur Singhal, partner at Bain & Co, a consulting firm, says, “To have 2,500 crore digital transactions is ambitious. The December run rate was 300 crore—so we’re talking about 8x growth. For this to happen we need more PoS (point of sale) deployments, peer-to-peer transactions and geographic expansion of digital in tier II and III towns and rural areas.”
+
+
+Digital Push
+ The government’s plan to boost digital payment numbers includes a push to deploy 10 lakh new PoS devices (that help complete card deals) by March and 20 lakh Aadhar Pay PoS machines by September. Already the BHIM app, developed by the National Payments Corporation of India (NPCI) and based on UPI, has been downloaded 125 lakh times. That’s a great start towards a digital economy, but is it enough? Subho Ray, president of the Internet & Mobile Association of India (IAMAI), says: “The government needs to massively improve infrastructure and security. USSD and the like are generally forced use cases and actually deter the customer.” Frauds have gone up in tandem with arise in digital transactions.
+
+ Digital payment app Paytm reported a jump in suspect transactions from an average of Rs 4 crore a month to Rs 11 crore a month post demonetisation.
+
+ Reserve Bank of India data for digital transactions showed a 10% decline in mid-January, compared to a month earlier, as access to cash got easier.
+
+ Overall, the number of digital transactions (debit cards, credit cards, electronic transfers, wallets & mobile banking) fell to 923 million in January from 1,028 million in December.
+
+
+Need for Ease of Use
+ Sriraman Jagannathan, vice president, payments, Amazon.in, the country’s second largest e-tailer, says “if we want 0.5 billion people paying digitally, we have to solve infrastructure quality and network issues.”
+
+ India has about 350 million internet users, about one-third being broadband users, according to a Ficci-Deloitte report. This will grow to 500 million by 2020. Barring USSD, which is SMS based and best suited for feature phones, other plans like UPI and BHIM need internet connectivity.
+
+ To boost connectivity the government has increased the outlay for BharatNet— touted as the world’s largest rural broadband connectivity project — to Rs 10,000 crore in 2017-18. The project will help deploy high speed connectivity across 1.5 lakh gram panchayats. RailTel Wi-Fi, the Indian Railways project with Google to deploy free Wi-Fi, is live at 110 stations and shows ample appetite for online transactions.
+
+ A Google spokesperson says 15,000 first time internet users connect every day on the network, with consumption higher in tier II cities (like Nagpur, Coimbatore) where access to high speed broadband connection is challenging.
+
+ AP Hota, managing director of NCPI, the nodal agency for payments, reckons limited adoption of credit and debit cards could slow down digital adoption. “China with 1.4 billion people has 5 billion cards, in India its only 800 million cards,” says Hota. He is optimistic that digital will be preferred despite cash being back. “Mobility of products will result in users preferring digital payments. The upcoming launch of Aadhar Pay (a merchant version of digital payments) and deployment of PoS machines are steps in the right direction.
+
+ Says Harish HV, partner, Grant Thornton, an advisory firm: “The challenge is not just to build the infrastructure, but how simple it’s to use and how safe. Do we have the infrastructure to scale five times to 2,500 crore transactions? That goal translates to at least 10 transactions per person per month Users will have to pay digitally only to achieve the target.” Harish also points to low deposit insurance given by banks (up to Rs 1 lakh). “This must be increased if cash has to stay in the banks to boost digital payments.”
+
+
+Make Digital Ubiquitous
+ The focus also needs to be on the digital have-nots, who struggle to use devices to pay. Arpita Agarwal, partner, telecom industry practice at PricewaterhouseCoopers India, says, “India needs good handsets at under $30.” Most of the cheaper handsets compromise on quality and are inadequate for mobile internet.
+
+ Upasana Taku, cofounder of MobiKwik, a mobile wallet firm, is more optimistic. “There are hiccups, but the future is less cash. Once use cases proliferate it will be easy—like pay for parking, bus tickets.” Gujarat State Road Transport bus conductors wear jackets with a QR code embedded on them to help commuters pay via mobile wallets. MobiKwik has tied up with Amul, MTNL, BSNL, BigBasket, National Highways Authority of India, among others, to enable wallet payments.
+
+ Taku has witnessed bottlenecks as well. “There are infrastructure problems. Like at the Surajkund fair (in Haryana recently) – on weekdays it was no problem but on weekends the system was unable to handle traffic. We have to plan to scale for more users.”
+
+ As transactions scale, so will frauds. Saket Modi, CEO, Lucideus, a cybersecurity startup whose clients include Kotak Mahindra Bank and Indigo and has worked with NPCI on testing the BHIM app, sees frauds increasing exponentially. “There will be crashes and frauds. No payment system is 100% secure.” In January, RBI invited applications for cybersecurity experts to join Reserve Bank Information Technology (ReBIT), which was set up in May 2016. RBI has also asked banks to report any tech breaches within six hours. However, banks spend small change on security compared to their US counterparts. Modi cites JP Morgan which spends $300 million a year on security compared to just a few million dollars by Indian banks.
+
+ And here’s one reason why cash may be ahead of cashless. When ET did a random check at a local South Delhi market and online, it found the following price patterns: a pair of jockey pyjamas cost Rs 720 in cash, Rs 799 if paid via digital means and Rs 769 on Amazon. And therein lies the value of cold cash. 
