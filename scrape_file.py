@@ -211,8 +211,73 @@ def toi():
                 y.write(str(url) + "\n")
                 pass
     x.close()
+
+def mathrubhumi():
+    nyt_paths = commands.getoutput("find -name *mathrubhumi.txt").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.findAll('h1')[0].text
+                print headline
+                paras = soup.findAll('div', attrs = {'class': 'col-md-12 col-sm-12 col-xs-12'})
+                print paras
+                # content = " "
+                # for i in range(0, len(paras)):
+                #     article = paras[i].find('p').text
+                #     print article 
+                # for i in paras:
+                #     article = i.find('p').text
+                #     print "article is :"
+                #     print article
+                    # print article
+                    # content += article + "\n"
                 
-                          
+                # print content
+                # article = paras[0].text
+                # print article
+                # new_path = ('/').join(path.split('/')[:-1]) + '/mathrubhumi_article_' + str(idx + 1) + '.txt'
+                # f = open(new_path, 'w')
+                # f.write(headline.encode('utf-8') + '\n')
+                # f.write(article.encode('utf-8'))
+                # f.close()
+                sleep(2)               
+
+def mylaporetimes():
+    nyt_paths = commands.getoutput("find -name *mylaporetimes.txt").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.findAll('h2')[0].text
+                print headline
+                content = " "
+                paras = soup.findAll('div', attrs = {'class': 'recent post'})
+                for i in range(0, len(paras)):
+                    article = paras[i].findAll('p')
+                for i in article:
+                    content += i.text + "\n"
+
+                article = content   
+                new_path = ('/').join(path.split('/')[:-1]) + '/mylaporetimes_article_' + str(idx + 1) + '.txt'
+                f = open(new_path, 'w')
+                f.write(headline.encode('utf-8') + '\n')
+                f.write(article.encode('utf-8'))
+                f.close()
+                sleep(2)
+                        
 # indiat()
 #nyt()
 # et()
@@ -220,5 +285,7 @@ def toi():
 # indianexpress()
 # ht()
 # bbc()
-toi()
+# toi()
+# mathrubhumi()
+mylaporetimes()
 
