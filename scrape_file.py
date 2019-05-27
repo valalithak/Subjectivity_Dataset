@@ -84,7 +84,7 @@ def hindu():
                 sleep(2)
         
 def et():
-    nyt_paths = commands.getoutput("find -name *et.txt").split('\n')
+    nyt_paths = commands.getoutput("find -name *ET.txt").split('\n')
     for path in nyt_paths:
         f = open(path, 'r')
         urls = f.readlines()
