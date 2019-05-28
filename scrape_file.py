@@ -278,6 +278,36 @@ def mylaporetimes():
                 f.write(article.encode('utf-8'))
                 f.close()
                 sleep(2)
+
+def dc():
+    nyt_paths = commands.getoutput("find -name *Deccanchronicle.txt").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.findAll('h1')[0].text
+                print headline
+                paras = soup.findAll('p')
+                
+                content = " "
+                for i in range(0, len(paras)-1):
+                    article = paras[i].text
+                    content += article + "\n"
+                
+                # print content
+                article = content
+                new_path = ('/').join(path.split('/')[:-1]) + '/DC_article_' + str(idx + 1) + '.txt'
+                f = open(new_path, 'w')
+                f.write(headline.encode('utf-8') + '\n')
+                f.write(article.encode('utf-8'))
+                f.close()
+                sleep(2) 
                         
 # indiat()
 #nyt()
@@ -289,4 +319,5 @@ def mylaporetimes():
 # toi()
 # mathrubhumi()
 # mylaporetimes()
+dc()
 
