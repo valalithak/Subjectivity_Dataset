@@ -337,6 +337,36 @@ def jakarta():
                 f.write(article.encode('utf-8'))
                 f.close()
                 sleep(2) 
+
+def ani():
+    nyt_paths = commands.getoutput("find -name *ani*").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.find('h1').text
+                print headline
+                paras = soup.findAll('p')[1].text
+                print paras
+                # content = " "
+                # for i in range(0, len(paras)):
+                #     article = paras[i].text
+                #     content += article + "\n"
+                
+                # print content
+                article = paras
+                new_path = ('/').join(path.split('/')[:-1]) + '/ani_article_' + str(idx + 1) + '.txt'
+                f = open(new_path, 'w')
+                f.write(headline.encode('utf-8') + '\n')
+                f.write(article.encode('utf-8'))
+                f.close()
+                sleep(2) 
                         
 # indiat()
 #nyt()
@@ -349,4 +379,5 @@ def jakarta():
 # mathrubhumi()
 # mylaporetimes()
 # dc()
-jakarta()
+# jakarta()
+ani()
