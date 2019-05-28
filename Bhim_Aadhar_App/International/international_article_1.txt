@@ -1,0 +1,63 @@
+'Your thumb is your bank': PM Modi launches UPI based mobile payment BHIM app
+
+Your thumb is your bank, said Prime Minister Narendra Modi at the launch of Aadhaar-based payment app, BHIM, in New Delhi on Friday. 
+
+Calling it the world’s biggest wonder, the PM said anyone can make e-payments now. 
+
+What is BHIM app? 
+
+BHIM stands for Bharat Interface for Money. It is an app that lets you make quick transactions using Unified Payment Interface (UPI). 
+PM calls BHIM app as the world’s biggest wonder, which helps anyone to make e-payments now
++3
+
+PM calls BHIM app as the world’s biggest wonder, which helps anyone to make e-payments now
+
+The payments are made directly from bank account to bank account using just mobile number or payment address and one does not have to add money like a digital wallet.
+
+How can I get it on my phone? 
+
+The BHIM app is available for download on the Google Play store for free. An iOS version of the app will also be launched soon. 
+
+Do I require a smartphone and internet connection? 
+
+Apart from an app, the interface can be accessed using USSD (Unstructured Supplementary Service Data) from feature phones - you will need to dial *99# to access it. 
+
+With this method, an Internet connection will not be required. 
+
+How does the app work? 
+
+After downloading the BHIM app from the Play store, the user has to register his/her bank account and set up a UPI Pin for it. 
+
+The user’s mobile number will become the payment address. Once registered, you can start transacting using the BHIM app. 
+
+Through the app, you can send or receive money to a phone number, check balance, or scan a QR code to make a payment without sharing a phone number. 
+Merchants need to download the Aadhaar cashless merchant app on their smartphones connected to a biometric reader, which is currently available for Rs 2,000.
++3
+
+Merchants need to download the Aadhaar cashless merchant app on their smartphones connected to a biometric reader, which is currently available for Rs 2,000.
+
+Money can also be sent to non-UPI banks through IFSC, like you do with normal net banking. 
+
+How is Aadhaar card tied into the service? 
+
+Merchants need to download the Aadhaar cashless merchant app on their smartphones connected to a biometric reader, which is currently available for Rs 2,000. 
+
+The customer will then feed the Aadhar number into the merchant’s app, select the bank through which the transaction will take place, and the biometric scan will work as a password for the transaction to be authenticated.
+There is a maximum limit of Rs 10,000 per transaction, and Rs 20,000 within 24 hours 
++3
+
+There is a maximum limit of Rs 10,000 per transaction, and Rs 20,000 within 24 hours 
+
+Are there transaction limits?
+
+There is a maximum limit of Rs 10,000 per transaction, and Rs 20,000 within 24 hours. 
+
+These limits are much higher than what is offered by competing apps, with most digital wallets limiting transactions to between Rs 10,000 and Rs 20,000 per month. 
+
+Which bank supports the app? 
+
+All UPI-connected banks accept BHIM. 
+
+This includes all major Indian banks including SBI, ICICI, Axis, and HDFC and other nationalized banks. 
+
+Banks that are not connected to UPI can also receive money through IFSC.  
