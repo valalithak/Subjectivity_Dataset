@@ -458,7 +458,66 @@ def mysore():
                 # f.close()
                 sleep(2) 
 
-                        
+def independent():
+    nyt_paths = commands.getoutput("find -name independent.txt").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.find('h1')
+                print headline
+                paras = soup.findAll('p')
+                
+                content = " "
+                for i in range(0, len(paras)):
+                    article = paras[i].text
+                    content += article + "\n"
+                
+                print content
+                # article = content
+                # new_path = ('/').join(path.split('/')[:-1]) + '/independent_article_' + str(idx + 1) + '.txt'
+                # f = open(new_path, 'w')
+                # f.write(headline.encode('utf-8') + '\n')
+                # f.write(article.encode('utf-8'))
+                # f.close()
+                sleep(2) 
+
+def france24():
+    nyt_paths = commands.getoutput("find -name france24.txt").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.find('h1').text
+                print headline
+                paras = soup.findAll('span')
+                
+                content = " "
+                for i in range(0, len(paras)-7):
+                    article = paras[i].text
+                    content += article + "\n"
+                
+                print content
+                # article = content
+                # new_path = ('/').join(path.split('/')[:-1]) + '/local_article_' + str(idx + 1) + '.txt'
+                # f = open(new_path, 'w')
+                # f.write(headline.encode('utf-8') + '\n')
+                # f.write(article.encode('utf-8'))
+                # f.close()
+                sleep(2) 
+               
 # indiat()
 #nyt()
 # et()
@@ -474,4 +533,6 @@ def mysore():
 # ani()
 # guardian()
 # telegraphindia()
-mysore()
+# mysore()
+# independent()
+france24()
