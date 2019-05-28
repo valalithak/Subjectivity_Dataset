@@ -1,0 +1,58 @@
+Technologically a fruitful year for ISRO
+2016 has been a tremendous year for ISRO; it managed to push 33 satellites high in sky with Indian rockets and activated its own satellite 
+Chennai: The year 2016 was a bag of mixed fortunes for the Indian Space Research Organisation (ISRO) with successes on the technological front and setbacks on the legal front.
+On the technological side, apart from simultaneously launching 20 satellites, the year also saw ISRO activating its own NavIC satellite navigation system, and testing a reusable launch vehicle (RLV) and a scramjet engine.
+
+The year saw ISRO putting into orbit 34 satellites — 33 satellites with Indian rockets and one (GSAT-18) by French company Arianespace.
+
+Of the 33 satellites launched with Indian rockets, 22 belonged to foreign customers and the remaining 11 were owned by ISRO and a couple of Indian academic institutions.
+
+The Indian space agency’s commercial arm Antrix Corporation’s order book stands at Rs 500 crore ($73 million) while negotiations are on for launch orders for another Rs 500 crore.
+
+The ISRO also put one more rocket — the Geosynchronous Satellite Launch Vehicle Mark II (GSLV-Mk II) with 2-2.5 tonne capacity to geo-transfer orbit in the global market.
+
+The space agency also commercially used its own multiple-burn technology in its other rocket Polar Satellite Launch Vehicle (PSLV).
+
+India’s eyes in the skies — a family of remote sensing or earth observation satellites — is said to have given the necessary images to the Indian Army to carry out its surgical strikes on terror camps across the Line of Control (LOC) in September.
+
+The space agency is also charting a new course in satellite manufacturing via a contract with Alpha Design Technologies Ltd for fabricating two navigation satellites.
+
+On the negative side, ISRO and its commercial arm, Antrix Corporation, suffered a legal setback.
+
+India lost the arbitration case in an international tribunal against Bengaluru-based Devas Multimedia Private Ltd for cancelling its space/satellite contract with Antrix Corporation.
+
+However, the Department of Space noted that the tribunal has said the Indian government’s essential security interest provisions “do apply in this case to an extent” and the “limited liability of compensation shall be limited to 40 per cent of the value of the investment”, but the precise quantum has not been determined as yet.
+
+The first quarter of the year saw ISRO launching three navigation satellites and completing the constellation of seven satellites for the NavIC system, designed to provide position information in the Indian region and 1,500 km around the Indian mainland.
+
+In May, ISRO took the first step in developing a RLV by successfully testing an aircraft-like winged structure.
+
+The structure, which sat atop a rocket, was released into space 70km above the earth and it returned and landed in the Bay of Bengal as planned.
+
+The year also saw ISRO successfully testing a scramjet, or air breathing engine. It is a baby step in space transportation and would take more than a decade to develop such an engine to power a full-fledged rocket.
+
+“The scramjet engine will suck the atmospheric oxygen and use that to burn fuel. As a result, the weight of the rocket will come down drastically which in turn can be used to increase its carrying capacity. The cost of the rocket will also come down,” said K. Sivan, Director, Vikram Sarabhai Space Centre (VSSC).
+
+In June, ISRO put into orbit India’s Cartosat earth observation satellite and 19 other satellites, including one belonging to the Terra Bella Google company.
+
+According to ISRO officials, the launch of satellites belonging to American companies Terra Bella and Planet Labs need not be a one-time affair.
+
+Incidentally, ISRO and US NASA’s Jet Propulsion Laboratory are jointly working on the development of Dual Frequency (L&S band) Synthetic Aperture Radar (SAR) Imaging Satellite named NASA-ISRO Synthetic Aperture Radar (NISAR), slated to be completed and launched by 2021.
+
+The Indian space agency also launched INSAT-3DR, an advanced weather satellite, using its heavy GSLV Mk II rocket and in the process put into the market one more rocket for launch services.
+
+“The global satellite launch services market is estimated at around $5 billion. It is not known the annual launch market size of satellites that would suit GSLV-Mk II,” Antrix Chairman-cum-Managing Director S. Rakesh told IANS earlier.
+
+According to him, India’s lighter rocket PSLV is consolidating its position in the small satellite launch market.
+
+India also launched a SCATSAT-1 weather satellite and seven others – five foreign and two domestic – with its PSLV rocket in a mission that spread over two hours and 15 minutes enabled by multiple-burn technology.
+
+Simply put, multiple-burn technology is the switching off and switching on of a rocket’s engine in space, mainly to deliver satellites in two different orbits.
+
+The Indian space agency rounded off its satellite launches in 2016 by putting into orbit its Resourcesat-2A remote sensing satellite .
+
+The space agency also signed a launch contract with the Bengaluru-based TeamIndus to land a spacecraft on the Moon.
+
+Meanwhile 2017 is expected to start with a big bang for ISRO as it would be aiming for a world record by putting into orbit 83 satellites — two Indian and 81 foreign — on a single rocket.
+The space agency is also expected to launch its four-ton capacity GSLV rocket early next year.
+

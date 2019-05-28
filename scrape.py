@@ -6,12 +6,12 @@ import os
 import re
 
 # f = open('deepika_ranveer_ht.txt', 'w')
-url = 'https://www.thehindu.com/business/Economy/at-stroke-of-midnight-india-gets-a-good-and-simple-tax/article19190299.ece'
+url = 'https://www.thehansindia.com/posts/index/Life-Style/2017-11-18/Haryana-born-Manushi-Chhillar-crowned-Miss-World-2017/340291'
 r = requests.get(url)
 data = r.text
 soup = BeautifulSoup(data, "lxml")
 content = ""
-b = soup.findAll('div', attrs = {'class':' '})
+b = soup.findAll('div')
 for text in b:
     c = text.findAll('p')
     content += str(c)
@@ -20,6 +20,8 @@ for text in b:
 clean = re.compile('<.*?>')
 content = re.sub(clean, '', content)
 clean = re.compile('</p>')
+content = re.sub(clean, '', content)
+clean = re.compile('\[\]')
 content = re.sub(clean, '', content)
 
 content = content.replace(".,", ".\n")

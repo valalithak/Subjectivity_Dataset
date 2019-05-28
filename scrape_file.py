@@ -367,6 +367,97 @@ def ani():
                 f.write(article.encode('utf-8'))
                 f.close()
                 sleep(2) 
+
+def guardian():
+    nyt_paths = commands.getoutput("find -name *guardian*").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.find('h1').text
+                print headline
+                paras = soup.findAll('p')
+                
+                content = " "
+                for i in range(5, len(paras)-1):
+                    article = paras[i].text
+                    content += article + "\n"
+                
+                # print content
+                article = content
+                new_path = ('/').join(path.split('/')[:-1]) + '/guardian_article_' + str(idx + 1) + '.txt'
+                f = open(new_path, 'w')
+                f.write(headline.encode('utf-8') + '\n')
+                f.write(article.encode('utf-8'))
+                f.close()
+                sleep(2) 
+
+def telegraphindia():
+    nyt_paths = commands.getoutput("find -name *telegraphindia.txt").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.find('h1').text
+                print headline
+                paras = soup.findAll('p')
+                
+                content = " "
+                for i in range(0, len(paras)-7):
+                    article = paras[i].text
+                    content += article + "\n"
+                
+                # print content
+                article = content
+                new_path = ('/').join(path.split('/')[:-1]) + '/local_article_' + str(idx + 1) + '.txt'
+                f = open(new_path, 'w')
+                f.write(headline.encode('utf-8') + '\n')
+                f.write(article.encode('utf-8'))
+                f.close()
+                sleep(2) 
+
+def mysore():
+    nyt_paths = commands.getoutput("find -name *mysore.txt").split('\n')
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.find('h1').text
+                print headline
+                paras = soup.findAll('span')
+                
+                content = " "
+                for i in range(0, len(paras)-7):
+                    article = paras[i].text
+                    content += article + "\n"
+                
+                print content
+                # article = content
+                # new_path = ('/').join(path.split('/')[:-1]) + '/local_article_' + str(idx + 1) + '.txt'
+                # f = open(new_path, 'w')
+                # f.write(headline.encode('utf-8') + '\n')
+                # f.write(article.encode('utf-8'))
+                # f.close()
+                sleep(2) 
+
                         
 # indiat()
 #nyt()
@@ -380,4 +471,7 @@ def ani():
 # mylaporetimes()
 # dc()
 # jakarta()
-ani()
+# ani()
+# guardian()
+# telegraphindia()
+mysore()
