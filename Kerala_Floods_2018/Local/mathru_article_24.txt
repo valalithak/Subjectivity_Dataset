@@ -1,0 +1,24 @@
+Thiruvananthapuram: The loss and damage to Kerala due to the devastating deluge would be much more than the primary estimate of Rs 20,000 crore, Chief Minister Pinarayi Vijayan said today.
+Rescue operations were over and the thrust now is on rehabilitation and rebuilding the state ravaged by the rain fury that claimed 322 lives since August 8, Vijayan told reporters after holding a meeting here to review the
+post-flood situation.
+"Rehabilitation process of the displaced is progressing in the right direction," he said. The chief minister rejected the Congress-led UDF opposition charge that the LDF government has not utilised the Ockhi cyclone relief fund. The cyclone hit the state's coast in November last year causing massive damage and claimed more than 100 lives, mostly of fishermen.
+"I fail to understand why opposition leader Ramesh Chennithala is coming out with such a charge now at a time when all people are extending support.
+The chief minister also gave details of the amount spent from the Ockhi relief fund and said government has not diverted any amount for other purposes. On the opposition demand to have a separate account
+for the relief amount received for the present calamity, Vijayan said "it will come as part of procedure. There is no need for any concern over such issues."
+On the rehabilitation process, he said with more and more people returning home, the number of people in relief camps have come down to 1.97 lakh. There were more than 14.50 lakh people in relief camps on August 21. "This shows that nearly 12.53 lakh people have returned home after rehabilitation began," he said. Rebuilding the state is one of the difficult tasks before the government. Only by integrating various factors such as finance, rebuilding policy and ensuring livelihood for the affected people, could it be fulfilled, Vijayan said.
+The state would come out with a action plan for rebuilding the state, he said. Certain environmental issues have come to the fore in the light of the recent floods, he said. The main issue before the government is whether to rehabilitate people in the same areas which were prone to flood and landslides, he said, adding "government has already started thinking on this matter."
+The state assembly, which has been convened for a day on August 30 to discuss the post flood situation, would discuss all issues and government would finalise the action plan, he said.
+Vijayan said steps would be taken to remove any hurdles to ensure that the flood-affected people get their insurance amount for their vehicles and electronic equipment, damaged in the rains, without delay.
+Another meeting of heads of Insurance companies would be called by state chief secretary Tom Jose, he said. People across the country and abroad were extending co-operation and support towards the government's rebuilding and rehabilitation exercise, Vijayan said.  
+Support from the Centre was also generous, he added. Vijayan appealed to all employed Keralities to donate one month's salary to the CMDRF and asked businessmen and traders to earmark a portion of their income for relief work. "Government is of the view that the state would be able to overcome the shortage of funds for rebuilding with mobilisation of our own resources and support extended from different quarters," Vijayan said. PTI
+
+
+
+ 
+(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, "script", "facebook-jssdk"));

@@ -1,0 +1,21 @@
+Constable Andrews
+
+Kollam:  The courtyard was filled with sea water and the water was rising every minute. An elderly man was afraid to venture into the waters as a steel rod was insered into his leg. It was at this juncture, that Policeman Andrews arrived in the scene as the saviour of the elderly man called Antony. Providing courage to Antony, Andrews carried him on his shoulders and started walking through the rising waters to a safe place….
+The video of the policeman saving an elderly man who was trapped in a house in the sea attack at Chellanam has gone viral on social media.
+The hero, Constable Andrews of Kannamali station was involved in the rescue effort at a place called Basar in Chellanam, which took the brunt of the sea attack. The worth of Andrews' daring rescue can be known when one knows the fact that a person had drowned in a water pit at the place today morning.
+Andrews was on night duty on Friday. A police team had reached Chellanam on Friday morning on hearing about the sea attack in the place.
+Women and children were evacuated in the first phase. As the situation turned worse, the men also were told to leave the place. Before leaving the place due to the severity of the sea attack, the policemen along with some locals searched the houses. It was then that I saw Antony who was standing without being able to get out, Andrews said.
+"As a steel rod was put in his leg, he could walk through the water. He was also afraid to venture out.  Hence, I carried him on my shoulder. His house was located in a low lying area. Women had left the place in the morning itself.  Antony did not leave the place as normally water levels do not increase at the place. As the water level started rising, he somehow walked to a house which is located at a little more elevated place. Normally, a situation of evacuating people does not arise in Chellanam Basar area. The sea attacks were usually reported at Kambanippadi which is a little away from Basar area. This is the first time that a rescue attempt is conducted near Basar area. Hence, I did not know the area well," Andrews said.
+A local who was with Andrews captured his rescue attempt on his mobile.
+Andrews, who joined police in 2005, reached Kannamali station two years back. 
+
+
+
+ 
+(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, "script", "facebook-jssdk"));
