@@ -63,25 +63,16 @@ def hindu():
                 r = requests.get(url.strip(), allow_redirects = False)
                 data = r.text
                 soup = BeautifulSoup(data, "lxml")
-                
-                content = " "
-                b = soup.findAll('div', attrs = {'class':' '})
-                for text in b:
-                    c = text.findAll('p')
-                    content += str(c)
-
-
-                clean = re.compile('<.*?>')
-                content = re.sub(clean, '', content)
-                clean = re.compile('</p>')
-                content = re.sub(clean, '', content)
-
-                content = content.replace(".,", ".\n")
-                
-                new_path = ('/').join(path.split('/')[:-1]) + '/hindu_article_' + str(idx + 1) + '.txt'
-                f = open(new_path, 'w')
-                f.write(content.encode('utf-8'))
-                f.close()
+                try:
+                    article = soup.findAll('div', attrs = {'class':' '})
+                    paras = article[3].findAll('div')[0].text
+                    
+                    new_path = ('/').join(path.split('/')[:-1]) + '/hindu_article_' + str(idx + 1) + '.txt'
+                    f = open(new_path, 'w')
+                    f.write(paras.encode('utf-8'))
+                    f.close()
+                except:
+                    pass
                 sleep(2)
         
 def indianexpress():
@@ -182,35 +173,31 @@ def bbc():
                 
 def toi():
     nyt_paths = commands.getoutput("find -name *toi.txt").split('\n')
-    x = open('toi_not_working.txt', 'r')
-    y = open('toi_not_working_2.txt', 'w')
-    # for path in nyt_paths:
-        # f = open(path, 'r')
-    urls = x.readlines()
-        # f.close()
-    for idx, url in enumerate(urls):
-        if url != '\n':
-            print url.strip()
-            r = requests.get(url.strip())
-            data = r.text
-            soup = BeautifulSoup(data, "lxml")
-            headline = soup.findAll('h1')[0].text
-            print headline
-            paras = soup.findAll('div', attrs = {'class': '_3WlLe clearfix '})
-            
-            try:
-                article = paras[0].text
-                print article
-                # new_path = ('/').join(path.split('/')[:-1]) + '/toi_article_' + str(idx + 1) + '.txt'
-                f = open('toi_content' + str(idx + 1) + '.txt' , 'w')
-                f.write(headline.encode('utf-8') + '\n')
-                f.write(article.encode('utf-8'))
-                f.close()
+    for path in nyt_paths:
+        f = open(path, 'r')
+        urls = f.readlines()
+        f.close()
+        for idx, url in enumerate(urls):
+            if url != '\n':
+                print url.strip()
+                r = requests.get(url.strip())
+                data = r.text
+                soup = BeautifulSoup(data, "lxml")
+                headline = soup.findAll('h1')[0].text
+                print headline
+                paras = soup.findAll('div', attrs = {'class': '_3WlLe clearfix '})
+                
+                try:
+                    article = paras[0].text
+                    #print article
+                    new_path = ('/').join(path.split('/')[:-1]) + '/toi_article_' + str(idx + 1) + '.txt'
+                    f = open(new_path, 'w')
+                    f.write(headline.encode('utf-8') + '\n')
+                    f.write(article.encode('utf-8'))
+                    f.close()
+                except:
+                    pass
                 sleep(2)
-            except:
-                y.write(str(url) + "\n")
-                pass
-    x.close()
 
 def mathrubhumi():
     nyt_paths = commands.getoutput("find -name *mathrubhumi.txt").split('\n')
@@ -521,11 +508,11 @@ def france24():
 # indiat()
 #nyt()
 # et()
-# hindu()
-# indianexpress()
+#hindu()
+#indianexpress()
 # ht()
 # bbc()
-# toi()
+toi()
 # mathrubhumi()
 # mylaporetimes()
 # dc()
@@ -535,4 +522,4 @@ def france24():
 # telegraphindia()
 # mysore()
 # independent()
-france24()
+#france24()
