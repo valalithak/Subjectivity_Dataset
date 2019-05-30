@@ -102,7 +102,7 @@ def indianexpress():
                 content = re.sub(clean, '', content)
                 
         
-                article = content
+                article = content.text
                 new_path = ('/').join(path.split('/')[:-1]) + '/indianexpress_article_' + str(idx + 1) + '.txt'
                 f = open(new_path, 'w')
                 f.write(headline.encode('utf-8') + '\n')
