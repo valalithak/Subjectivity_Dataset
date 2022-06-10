@@ -3,7 +3,10 @@ This is the **Manovaad-v1.0** corpus created and used as a part of the work:
 Link to the complete paper: 
 https://aclanthology.org/2020.lrec-1.609.pdf
 
-| SNo | Event                                                                                                                                 | Year | Category                      | #Local articles | #National Articles | #International Articles | #Total |
+Following is a list of all events along with the year, category of the event, and
+number of articles in the corpus at each level of reporting (local, national, international)
+
+| SNo | Event                                                                                                                                 | Year | Category                      | #Local articles | #National Articles | #International Articles | #Total Articles |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------- | ---- | ----------------------------- | --------------- | ------------------ | ----------------------- | ------ |
 | 1   | Baramulla Attack                                                                                                                      | 2016 | International                 | 2               | 9                  | 3                       | 14     |
 | 2   | Death of Jayalalithaa                                                                                                                 | 2016 | Local - Tamil nadu            | 6               | 9                  | 2                       | 17     |
